@@ -3,7 +3,7 @@ import urllib.parse
 
 class SpotifyClient(object):
     def __init__(self, api_token):
-        self.api_token = "BQAuP-NZX1--bUYZ5_xonIj7ASHoOU3HCyY7AwA2hyUiXt8qgYlSAPLoLKKR9qQjau1dR8r-nxwk_lCWcqE_H1gq3ZtOxW76EZCgAvqkRrvyDCLvNGPOTVrEWogzkU2JL2dmSrf-qIbJEEr3VdjHSs0IQhc"
+        self.api_token = "BQC_Xsu3FyrArVYIXTpIWXDhwX8JG_DE6PoPhRrAbIE43wFfmpQG1ilzK4FlxxqAKXgyprhrKWCkrzD-JCnUe2NIi5Wimy8-7K7Rr0Yh_cxW2Zmsil_4KrMm7XRiTnPzRnm7tkddt_NtKk5etDy63Q8OM3A"
 
     def search_song(self, track):
         track = ' '.join(track.split(' ',2)[:2])
